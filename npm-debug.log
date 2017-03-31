@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mysql-handlebars',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose install initial load of C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp\node_modules\express\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp\node_modules\express-handlebars\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp\node_modules\method-override\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp\node_modules\mysql\package.json
+10 verbose readDependencies loading dependencies from C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp\package.json
+11 silly cache add args [ 'mysql-handlebars', null ]
+12 verbose cache add spec mysql-handlebars
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: 'mysql-handlebars',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'mysql-handlebars',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: 'latest',
+13 silly cache add   type: 'tag' }
+14 silly addNamed mysql-handlebars@latest
+15 verbose addNamed "latest" is being treated as a dist-tag for mysql-handlebars
+16 info addNameTag [ 'mysql-handlebars', 'latest' ]
+17 silly mapToRegistry name mysql-handlebars
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'mysql-handlebars',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   name: 'mysql-handlebars',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/mysql-handlebars
+22 verbose addNameTag registry:https://registry.npmjs.org/mysql-handlebars not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/mysql-handlebars
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 10:57:08 PM
+26 verbose request id 0c8bc682d0be6640
+27 http request GET https://registry.npmjs.org/mysql-handlebars
+28 http 404 https://registry.npmjs.org/mysql-handlebars
+29 verbose headers { 'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '2',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Fri, 31 Mar 2017 02:57:06 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-jfk8145-JFK',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1490929026.094333,VS0,VE100',
+29 verbose headers   vary: 'Accept-Encoding' }
+30 silly get cb [ 404,
+30 silly get   { 'content-type': 'application/json',
+30 silly get     'cache-control': 'max-age=0',
+30 silly get     'content-length': '2',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     date: 'Fri, 31 Mar 2017 02:57:06 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     age: '0',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-jfk8145-JFK',
+30 silly get     'x-cache': 'MISS',
+30 silly get     'x-cache-hits': '0',
+30 silly get     'x-timer': 'S1490929026.094333,VS0,VE100',
+30 silly get     vary: 'Accept-Encoding' } ]
+31 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/mysql-handlebars
+31 verbose stack     at makeError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+31 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+31 verbose stack     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+31 verbose stack     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+31 verbose stack     at emitTwo (events.js:87:13)
+31 verbose stack     at Request.emit (events.js:172:7)
+31 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+31 verbose stack     at emitOne (events.js:82:20)
+31 verbose stack     at Request.emit (events.js:169:7)
+31 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+32 verbose statusCode 404
+33 verbose pkgid mysql-handlebars
+34 verbose cwd C:\Users\Mike\desktop\class1\eatdaburger\eatdaburgerapp
+35 error Windows_NT 10.0.14393
+36 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mysql-handlebars" "--save"
+37 error node v4.6.0
+38 error npm  v2.15.9
+39 error code E404
+40 error 404 Registry returned 404 for GET on https://registry.npmjs.org/mysql-handlebars
+40 error 404
+40 error 404 'mysql-handlebars' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 It was specified as a dependency of 'burgers'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
+41 verbose exit [ 1, true ]
